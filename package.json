@@ -1,0 +1,43 @@
+{
+  "name": "awesome-gen-form",
+  "version": "0.0.1",
+  "description": "Awesome-gen items generator",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production",
+    "build-dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "Meliurwen <meliurwen@gmail.com>",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-react": "^7.0.0",
+    "react-copy-to-clipboard": "^5.0.1"
+  },
+  "dependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/plugin-proposal-class-properties": "^7.2.3",
+    "@babel/preset-env": "^7.2.3",
+    "@babel/preset-typescript": "^7.1.0",
+    "ajv": "^6.6.2",
+    "babel-loader": "^8.0.4",
+    "css-loader": "^2.0.2",
+    "file-loader": "^3.0.1",
+    "graphql": "^14.0.2",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "prop-types": "^15.6.2",
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "semantic-ui-css-offline": "^1.0.4-2.4.2",
+    "semantic-ui-react": "^0.84.0",
+    "simpl-schema": "^1.5.3",
+    "style-loader": "^0.23.1",
+    "uniforms": "^1.29.0",
+    "uniforms-semantic": "^1.29.0",
+    "webpack": "^4.28.1",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.14"
+  }
+}
